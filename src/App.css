@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+}
+
+.App-header {
+  background-color: #282c34;
+  color: white;
+}
+
+nav{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+  background: #202228;
+  color: white;
+}
+
+.proj-name{
+  padding: 10px;
+}
+
+.nav-links{
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
