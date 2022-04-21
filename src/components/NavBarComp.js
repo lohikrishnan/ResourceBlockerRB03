@@ -15,9 +15,6 @@ function NavBarComp() {
               <Link style={navStyle} to="/login">
                 <li>Login</li>
               </Link>
-              <Link style={navStyle} to='/about'>
-                <li>About</li>
-              </Link>
             </ul>
             
         </nav>

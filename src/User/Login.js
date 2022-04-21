@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Login() {
   const navStyle = {
-    color: 'white'
+    color: 'black'
   };
   return (
     <div className='logincss'>
@@ -28,10 +28,6 @@ function Login() {
         <Button id='btn-login' variant="primary" type="submit">
           Login
         </Button>
-        <h5>Forgot Your Password?</h5>
-        <Link style={navStyle} to="/forgetPasswordVerification">
-                <h6>Forget Password</h6>
-        </Link>
         <h5>Need to Reset Your Password?</h5>
         <Link style={navStyle} to="/resetPassword">
                 <h6>Reset Password</h6>
